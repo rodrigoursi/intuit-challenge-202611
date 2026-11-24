@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ConsultasPlan.Data;
 using ConsultasPlan.Models;
+using ConsultasPlan.Helpers;
 
 namespace ConsultasPlan.Controllers;
 

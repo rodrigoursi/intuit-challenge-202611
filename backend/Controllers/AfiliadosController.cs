@@ -47,7 +47,7 @@ public class AfiliadosController : ControllerBase
         var existing = await _context.Afiliados.FindAsync(id);
         if (existing == null) return NotFound();
 
-        existing.NombreCompleto = afiliado.Nombre;
+        existing.NombreCompleto = afiliado.NombreCompleto;
         existing.DNI = afiliado.DNI;
         existing.Email = afiliado.Email;
         existing.Telefono = afiliado.Telefono;

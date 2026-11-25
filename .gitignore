@@ -12,3 +12,8 @@ frontend/dist/
 # OS
 .DS_Store
 Thumbs.db
+
+# Visual Studio
+.vs/
+*.user
+*.suo
